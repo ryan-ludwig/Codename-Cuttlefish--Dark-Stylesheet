@@ -22,6 +22,7 @@ div.sub-nav span a {
 }
 div.sub-nav span a:hover {
 	background: #000;
+	font-weight:normal;
 }
 h3.sub-panel-header {
 	color: #ccc;
