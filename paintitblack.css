@@ -55,7 +55,7 @@ div.feature-detail-container {
 div.sub-header, div.dark-header {
 	background: #888;
 }
-div.sub-header h2 {
+div.sub-header h2, div.sub-header h2 a {
 	color: #fff;
 	text-shadow: 0px 1px 1px #777;
 }
@@ -215,7 +215,7 @@ div.right-col-tabbed-nav h3.selected {
 	padding: 10px 10px 0;
 	background: #000 url('images/copasso_ruler.gif') 0 -3px repeat-x;
 }
-#scratchColumn .col2Cell {
+#scratchColumn .col2Cell, #myColorsColumn .col2Cell, #myPalettesColumn .col2Cell, #paletteDetailsColumn .col2Cell {
 	background: #000;
 }
 .imgCell {
