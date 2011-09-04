@@ -1,6 +1,6 @@
 // ==UserScript==
-// @match http://www.colourlovers.com/*
-// @match http://*.colourlovers.com/*
+// @include       http://www.colourlovers.com/*
+// @include       http://*.colourlovers.com/*
 // @name          Codename Cuttlefish - Paint it Black - Colourlovers
 // @namespace     http://www.codenamecuttlefish.com/project-files/paint-it-black/
 // @description   GGRRRREEYYYYY!
@@ -25,7 +25,7 @@
 // --------------------------------------------------------------------
 //
 
-if (document.location.href.match(/http:\/\/[a-zA-Z\.]*colourlovers\.com\//) {
+if (document.location.href.match(/http:\/\/[a-zA-Z\.]*colourlovers\.com\//)) {
 	
 	head = document.getElementsByTagName('head')[0],
 	css = document.createElement('link'),
